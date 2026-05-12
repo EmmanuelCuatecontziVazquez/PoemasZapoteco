@@ -2,13 +2,16 @@
 Corpus de poemas del idioma Zapoteco
 
 De acuerdo con la estructura propuesta, los datos se estrcturan de la siguiente manera
-Corpus \\
-|---Zapoteco \\
-|   |- verso1 del poema1 en zapoteco \n
-|   |... \\
-|---Español \\
-|   |- verso1 del poema1 en zapoteco
-|   |...
+
+Corpus
+├── Zapoteco
+│   ├── verso1_poema1.txt
+│   ├── verso2_poema1.txt
+│   └── ...
+├── Español
+│   ├── verso1_poema1.txt
+│   ├── verso2_poema1.txt
+│   └── ...
 
 Además esta el requisito de identificar correctamente la traducción correspondiente. Para ello podemos usar los metadatos de cada documento.
 # propuesta de nomenclatura
