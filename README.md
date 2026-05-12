@@ -2,11 +2,11 @@
 Corpus de poemas del idioma Zapoteco
 
 De acuerdo con la estructura propuesta, los datos se estrcturan de la siguiente manera
-Corpus
-|---Zapoteco 
-|   |- verso1 del poema1 en zapoteco
-|   |...
-|---Español
+Corpus \\
+|---Zapoteco \\
+|   |- verso1 del poema1 en zapoteco \\
+|   |... \\
+|---Español \\
 |   |- verso1 del poema1 en zapoteco
 |   |...
 
