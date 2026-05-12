@@ -1,2 +1,20 @@
 # PoemasZapoteco
-Corpues de poemas del idioma Zapoteco
+Corpus de poemas del idioma Zapoteco
+
+De acuerdo con la estructura propuesta, los datos se estrcturan de la siguiente manera
+Corpus
+|---Zapoteco 
+|   |- verso1 del poema1 en zapoteco
+|   |...
+|---Español
+|   |- verso1 del poema1 en zapoteco
+|   |...
+
+Además esta el requisito de identificar correctamente la traducción correspondiente. Para ello podemos usar los metadatos de cada documento.
+# propuesta de nomenclatura
+
+idioma                E o Z
+número de verso       1... n
+id por poema, esto podría ser el nombre completo o solo indices según aparezcan, el problema es que de esta forma habría que establecer un orden,
+también podemos usar nuestra inicial con un id numerico y de esa forma no habría solapamientos
+
