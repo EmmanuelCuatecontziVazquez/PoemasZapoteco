@@ -3,6 +3,11 @@ Corpus de poemas del idioma Zapoteco
 
 De acuerdo con la estructura propuesta, los datos se estrcturan de la siguiente manera
 
+## Estructura del corpus
+
+De acuerdo con la estructura propuesta, los datos se estructuran de la siguiente manera:
+
+```text
 Corpus
 ├── Zapoteco
 │   ├── verso1_poema1.txt
@@ -12,7 +17,7 @@ Corpus
 │   ├── verso1_poema1.txt
 │   ├── verso2_poema1.txt
 │   └── ...
-
+```
 Además esta el requisito de identificar correctamente la traducción correspondiente. Para ello podemos usar los metadatos de cada documento.
 # propuesta de nomenclatura
 
